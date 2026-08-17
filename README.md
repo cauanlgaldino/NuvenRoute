@@ -1,4 +1,4 @@
-# LEIT Route
+# Nuven Route
 
 Aplicativo mobile desenvolvido para o Desafio Técnico Mobile do laboratório NUVEN. Feito em React Native com Expo para visualizacao e execucao de rotas de atendimento em campo, com foco em uso offline, registro de leitura, foto, geolocalizacao e sincronizacao simulada.
 
