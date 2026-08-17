@@ -1,30 +1,39 @@
 {
   "expo": {
-    "name": "leit-route",
-    "slug": "leit-route",
+    "name": "NuvenRoute",
+    "slug": "nuven-route",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "O LEIT Route usa a câmera para registrar a evidência fotográfica da visita.",
+        "NSLocationWhenInUseUsageDescription": "O LEIT Route usa sua localização para registrar as coordenadas do atendimento."
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-camera",
+      "expo-location"
+    ]
   }
 }
