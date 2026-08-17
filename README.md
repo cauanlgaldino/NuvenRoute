@@ -4,7 +4,7 @@ Aplicativo mobile desenvolvido para o Desafio Técnico Mobile do laboratório NU
 
 ## Demonstração
 
-![Demonstração do app](assets/demo/NuvenRoute - Demo.gif)
+![Demonstração do app](assets/NuvenRoute - Demo.gif)
 
 ## Como executar
 
